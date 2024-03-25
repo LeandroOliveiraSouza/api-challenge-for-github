@@ -1,0 +1,28 @@
+.home-body-section {
+  padding-top: 27px;
+}
+
+.home-body-title {
+  padding-bottom: 27px;
+}
+
+.home-body-title-h1 {
+  font-size: 28px;
+  color: var(--color-font-primary);
+}
+
+.home-body-title-h2 {
+  font-size: 16px;
+  color: var(--color-font-secondary);
+}
+
+.home-body-button {
+  width: 101px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: var(--color-bg-primary);
+  color: var(--color-font-tertiary);
+  border: none;
+  border-radius: 4px;
+}
