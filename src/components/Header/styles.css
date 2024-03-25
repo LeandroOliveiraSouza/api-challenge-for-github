@@ -1,0 +1,16 @@
+header {
+  height: 62px;
+  background-color: var(--color-bg-primary);
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  margin: 0 20px;
+}
+
+.nav-bar-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-font-tertiary);
+}
