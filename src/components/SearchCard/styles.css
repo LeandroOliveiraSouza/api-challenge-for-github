@@ -1,0 +1,31 @@
+.card-container {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: var(--color-bg-tertiary);
+  margin-top: 54px;
+  height: 200px;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.card-container-title {
+  font-size: 18px;
+  color: var(--color-font-senario);
+  padding-bottom: 12px;
+}
+
+.card-container-input {
+  margin-bottom: 24px;
+  border: 1px solid var(--color-border-primary);
+  height: 40px;
+}
+
+.card-container-input::placeholder {
+  font-size: 12px;
+  color: var(--color-placeholder);
+  padding-left: 10px;
+}
