@@ -23,3 +23,22 @@
   color: var(--color-placeholder);
   padding-left: 10px;
 }
+
+@media (min-width: 768px) {
+  .card {
+    height: 270px;
+  }
+
+  .card-container-title {
+    font-size: 38px;
+  }
+
+  .card-container-input {
+    width: 298px;
+    height: 40px;
+  }
+
+  .card-container-input::placeholder {
+    font-size: 16px;
+  }
+}

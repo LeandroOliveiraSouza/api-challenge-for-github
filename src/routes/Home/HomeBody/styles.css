@@ -15,3 +15,13 @@
   font-size: 16px;
   color: var(--color-font-secondary);
 }
+
+@media (min-width: 768px) {
+  .home-body-title-h1 {
+    font-size: 48px;
+  }
+
+  .home-body-title-h2 {
+    font-size: 24px;
+  }
+}

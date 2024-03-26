@@ -10,7 +10,13 @@ header {
 }
 
 .nav-bar-title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   color: var(--color-font-tertiary);
+}
+
+@media (min-width: 768px) {
+  .nav-bar-title {
+    font-size: 24px;
+  }
 }

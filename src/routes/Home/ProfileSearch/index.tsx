@@ -1,12 +1,12 @@
+import Information from "../../../components/Information";
 import SearchCard from "../../../components/SearchCard";
-import UserNotFound from "../../../components/UserNotFound";
 
 export default function ProfileSearch() {
   return (
     <main>
       <section className="container">
         <SearchCard />
-        <UserNotFound />
+        <Information />
       </section>
     </main>
   );

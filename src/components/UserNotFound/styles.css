@@ -3,3 +3,9 @@
   font-weight: 500;
   color: var(--color-font-senario);
 }
+
+@media (min-width: 768px) {
+  .user-not-found {
+    font-size: 38px;
+  }  
+}

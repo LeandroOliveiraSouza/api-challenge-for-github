@@ -42,13 +42,13 @@ main {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1251px;
   margin: 0 auto;
 }
 
 .card-container {
   width: 100%;
-  max-width: 768px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -65,4 +65,12 @@ main {
 
 .mb54 {
   margin-bottom: 54px;
+}
+
+@media (min-width: 768px) {
+  .home-body-button {
+    width: 101px;
+    height: 40px;
+    font-size: 16px;
+  }
 }
