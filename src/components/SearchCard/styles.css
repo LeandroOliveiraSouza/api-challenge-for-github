@@ -1,13 +1,7 @@
-.card-container {
-  width: 100%;
-  max-width: 768px;
-  margin: 0 auto;
-}
-
 .card {
   background-color: var(--color-bg-tertiary);
-  margin-top: 54px;
-  height: 200px;
+  margin: 54px 0;
+  height: 180px;
   padding: 30px;
   border-radius: 16px;
 }
@@ -21,7 +15,7 @@
 .card-container-input {
   margin-bottom: 24px;
   border: 1px solid var(--color-border-primary);
-  height: 40px;
+  height: 30px;
 }
 
 .card-container-input::placeholder {

@@ -4,6 +4,7 @@
   --color-bg-primary: #1890ff;
   --color-bg-secondary: #fff;
   --color-bg-tertiary: #e6f7ff;
+  --color-bg-quaternary: #F5F5F5;
 
   --color-font-primary: #000;
   --color-font-secondary: #7e7e7e;
@@ -36,7 +37,7 @@ a:hover {
 }
 
 main {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 .container {
@@ -45,13 +46,23 @@ main {
   margin: 0 auto;
 }
 
+.card-container {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
 .home-body-button {
-  width: 101px;
-  height: 40px;
+  width: 85px;
+  height: 30px;
   font-size: 14px;
   font-weight: 400;
   background-color: var(--color-bg-primary);
   color: var(--color-font-tertiary);
   border: none;
   border-radius: 4px;
+}
+
+.mb54 {
+  margin-bottom: 54px;
 }
